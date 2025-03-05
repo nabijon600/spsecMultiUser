@@ -1,0 +1,29 @@
+### Creat task
+POST localhost:8080/task
+Content-Type: application/json
+Authorization: Basic dXNlcjphZG1pbg==
+
+{
+"title": "taskiy",
+"content": "Taksis soqqani qil",
+"createdDate": "2025-02-12T22:19:28.4334962"
+}
+
+### Get task
+GET localhost:8080/task
+
+### Get task by id
+GET localhost:8080/task/968f3604-3480-40ca-8b08-3b36691b2a05
+
+### Delete task
+DELETE localhost:8080/task/968f3604-3480-40ca-8b08-3b36691b2a05
+Authorization: Basic dXNlcjphZG1pbg==
+
+###user:admin
+###dXNlcjphZG1pbg==
+
+### Brauzer dan murojaat qilish mumkun
+### {
+### login: user
+### passw: UUID kod beradi spring yurganda o'sha
+### }
